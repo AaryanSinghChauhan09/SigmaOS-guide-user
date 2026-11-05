@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_guide_user"
+version = "0.1.0"
+edition = "2021"
+description = "Practical daily-driver user handbook and workflow guide interface and metadata library"
+
+[lib]
+name = "sigmaos_guide_user"
+path = "src/lib.rs"
