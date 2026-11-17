@@ -3,12 +3,12 @@ name = "SigmaOS-guide-user"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "Practical daily-driver user handbook and workflow guide interface and metadata library"
+description = "User guide"
 upstream = ["https://github.com/linuxmint/doc-user-guide"]
 
 [contract]
 provides = ["user-guide-metadata", "workflow-handbook", "user-documentation-library"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
